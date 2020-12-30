@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+총 글자 갯수는 ${count} 개 입니다.
 </body>
 </html>
