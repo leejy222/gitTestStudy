@@ -16,7 +16,7 @@ public class MainController {
 	}
 	@PostMapping("/strcount")
 	public String strcount1(Model model,String content) {
-		model.addAttribute("count",content.length());
+		model.addAttribute("count",content.replaceAll(" ","").length());
 		System.out.println(content);
 		return "strcount1";
 	}
