@@ -12,9 +12,6 @@
 글자수 세기 프로그램 <br>
 
 <textarea name="content" cols="40" rows="8">
-
-
-
 </textarea><br>
 
 <input type="submit" value="확인">
